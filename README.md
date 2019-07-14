@@ -7,7 +7,7 @@ A web application that takes a user's birthday, calculates the day of the week t
  > Victor kamau
 
 ## Screenshot.
-<image src="" width="1000">
+<image src="https://github.com/kamauvick/Akan-Names/blob/master/images/shot.png?raw=true" width="1000">
 
 ## Technologies used.
   * Html5
