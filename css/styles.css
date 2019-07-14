@@ -1,5 +1,5 @@
 body{
-  background-color: #6150c1;
+  background-color: #dadada;
 }
 h1{
   color: #ffffff;
@@ -31,6 +31,12 @@ h1{
   padding-top: 20px;
   font-weight: bolder;
   font-family: system-ui;
+}
+.panel{
+  margin-left: 80px;
+}
+.form-control{
+  width: 150%;
 }
 .top-form{
   margin-top: 20px;
