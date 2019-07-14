@@ -1,5 +1,5 @@
 var century, year, month, dayOfMonth, dayOfWeek, day;
-
+//Get input
 function getInput(){
   century = parseInt(document.getElementById("century").value);
   year = parseInt(document.getElementById("year").value);
@@ -14,7 +14,7 @@ function calculateDay(){
     console.log(dayOfWeek); //Test the output
     return (Math.floor(dayOfWeek));
 }
-
+//func checkday
  function checkDayOfWeek(){
      day = calculateDay();
       checkGender();
