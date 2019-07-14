@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
 body{
-  background-color: #dadada;
+  background-color: #c8dad3;
 }
 h1{
   color: #ffffff;
@@ -7,7 +8,7 @@ h1{
 .parent{
   margin-top: 10px;
   margin-bottom: 0;
-  height: 630px;
+  height: 670px;
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,14 +18,14 @@ h1{
 .left{
   background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
   background-size: center;
-  height: 630px;
+  height: 670px;
   border-radius: 10px 0 0 10px;
   margin: 0;
 }
 .overlay{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px 0 0 5px;
-  height: 630px;
+  height: 670px;
 }
 .akan{
   font-size: 40px;
@@ -32,18 +33,32 @@ h1{
   font-weight: bolder;
   font-family: system-ui;
 }
-.panel{
-  margin-left: 80px;
-}
-.form-control{
-  width: 150%;
-}
 .top-form{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .labels{
   font-family: monospace;
   font-weight: lighter;
   font-size: 25px;
   color: #6150c1;
+}
+.p-text{
+  margin: 30px 30px 30px 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Khula', sans-serif;
+}
+.q-text{
+  color: #fdd043;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 80px 20px 20px 10px;
+}
+#result{
+  margin-top: 30px;
+  color: #fdd043;
+  font-size: 38px;
+}
+.rounded-circle{
+  margin-left: 40%;
 }
