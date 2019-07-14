@@ -1,3 +1,6 @@
+body{
+  background-color: #6150c1;
+}
 h1{
   color: #ffffff;
 }
@@ -9,9 +12,9 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: #626f92;
+  box-shadow: 1px 0px 2px #ffffff;
 }
 .left{
-  /* background-color: #ef6c35; */
   background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
   background-size: center;
   height: 630px;
@@ -20,7 +23,7 @@ h1{
 }
 .overlay{
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px 0 0 10px;
+  border-radius: 5px 0 0 5px;
   height: 630px;
 }
 .top-form{
