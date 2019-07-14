@@ -49,3 +49,4 @@ A web application that takes a ``user's birthday``, calculates the ``day of the 
 > MIT License &copy 2019 Victor 
 
 ## Collaborate
+To collaborate, reach me on [Email](waichigovick@gmail.com)
