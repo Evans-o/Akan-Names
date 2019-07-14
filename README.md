@@ -16,7 +16,7 @@ A web application that takes a user's birthday, calculates the day of the week t
   * Bootstrap
   * Markdown
   
-## MDD
+## BDD
 
 ## Known Bugs
 
