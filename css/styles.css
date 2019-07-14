@@ -1,16 +1,28 @@
 h1{
-  color: #000000;
+  color: #ffffff;
 }
-.jumbotron{
-  margin-top: 5px;
-  height: 560px;
-  /* padding: 0; */
+.parent{
+  margin-top: 10px;
+  margin-bottom: 0;
+  height: 630px;
+  padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ziDhOLv/flag-of-ghana-beautiful-3d-animation-revealing-ghana-flag-with-alpha-channel_4jzgc4qkt__F0000.png');
+  background-image: #626f92;
 }
-/* .overlay{
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 660px;
-  width: 100%;
-} */
+.left{
+  /* background-color: #ef6c35; */
+  background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
+  background-size: center;
+  height: 630px;
+  border-radius: 10px 0 0 10px;
+  margin: 0;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px 0 0 10px;
+  height: 630px;
+}
+.top-form{
+  margin-top: 20px;
+}
