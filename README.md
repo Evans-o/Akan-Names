@@ -9,6 +9,14 @@ A web application that takes a user's birthday, calculates the day of the week t
 
 ## Screenshot.
 <image src="https://github.com/kamauvick/Akan-Names/blob/master/images/shot.png?raw=true" width="1000">
+ 
+ ## Setup.
+ > git clone https://github.com/kamauvick/Akan-Names.git
+ 
+ extract the file
+ cd to the Akan-Names directory
+ 
+ > Open the index.html on your favorite browser
 
 ## Technologies used.
   * Html5
