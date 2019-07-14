@@ -10,35 +10,35 @@
     <div class="container-fluid">
       <div class="jumbotron parent">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-6">
             <div class="jumbotron p-0 left">
                 <div class="overlay">
-                  <h1>Akan Names</h1>
+                  <h1 class="text-center akan">Akan Names</h1>
                   <hr class="my-4">
                 </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6">
             <div class="panel col-sm-6 offset-sm-3 ">
                     <div class="form-group top-form">
-                      <label for="century">Century</label>
+                      <label for="century" class="labels">Century</label>
                       <input type="text" class="form-control" placeholder="Enter the century" id="century" required>
                     </div>
                     <div class="form-group">
-                      <label for="year">Year</label>
+                      <label for="year" class="labels">Year</label>
                       <input type="text" placeholder="Enter the year" class="form-control" id="year" required>
                     </div>
                     <div class="form-group">
-                      <label for="month">Month</label>
+                      <label for="month" class="labels">Month</label>
                       <input type="text" class="form-control" placeholder="Enter the month of the year" id="month" required>
                     </div>
                     <div class="form-group">
-                      <label for="monthDay">Day of month</label>
+                      <label for="monthDay" class="labels">Day of month</label>
                       <input type="text" placeholder="Enter the day of the month" class="form-control" id="monthday" required>
                     </div>
                     <form class="radio-button">
-                      <input type="radio" class="genders" value="male" id="rad1" name="rads" required>Male
-                      <input type="radio" class="genders" value="female" id="rad1" name="rads" required>Female
+                      <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                      <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
                     </form>
                     <br>
                     <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Day</button></a>
