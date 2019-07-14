@@ -48,6 +48,16 @@ h1{
   font-size: 20px;
   font-family: 'Khula', sans-serif;
 }
+.genders{
+  margin-left: 50px;
+}
+.btn{
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 45px;
+  width: 200px;
+  border-radius: 20px;
+}
 .q-text{
   color: #fdd043;
   font-size: 30px;
@@ -56,8 +66,8 @@ h1{
 }
 #result{
   margin-top: 30px;
-  color: #fdd043;
-  font-size: 38px;
+  color: #000000;
+  font-size: 28px;
 }
 .rounded-circle{
   margin-left: 40%;
