@@ -27,12 +27,20 @@ A web application that takes a ``user's birthday``, calculates the ``day of the 
   * Markdown
   
 ## BDD
-| Inputs |  Expected output |
+| Inputs |  Description |
 | :---         |          ---: |
-| Century   | Day of birth |
-| Year     | Akan name    |
-| Month     |      |
-| Date     |    |
+| Century   | The century that the user was born in, ``eg 20th century``|
+| Year     | The year of the century ``eg 98th year``   |
+| Month     | The month of the year ``eg 7th month``     |
+| Date     |  The day of the month ``eg 15th day`` |
+
+
+| Outputs |  Description |
+| :---         |          ---: |
+| Day of birth  | The day of the week that the user was born ``eg Tuesday`` |
+| Akan name    |  The corresponding Akan name for the user ``eg Kofi``    |
+|     |      |
+
 
 ## Known Bugs
 * Saturday 13th 2019 returns a value of -0.449 which causes the application to crash
