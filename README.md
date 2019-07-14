@@ -2,7 +2,7 @@
 [Check it out](https://kamauvick.github.io/Akan-Names/)
 
 ## Description.
-A web application that takes a user's birthday, calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+A web application that takes a ``user's birthday``, calculates the ``day of the week`` they were born and then depending on their gender outputs their Akan Name. 
 
 ## Author.
  > Victor kamau
@@ -11,12 +11,12 @@ A web application that takes a user's birthday, calculates the day of the week t
 <image src="https://github.com/kamauvick/Akan-Names/blob/master/images/shot.png?raw=true" width="1000">
  
  ## Setup.
- > git clone https://github.com/kamauvick/Akan-Names.git
+ > ``git clone https://github.com/kamauvick/Akan-Names.git``
  
- extract the file
- cd to the Akan-Names directory
+ ``extract the file``
+ ``cd to the Akan-Names directory``
  
- > Open the index.html on your favorite browser
+ > ``Open the index.html on your favorite browser``
 
 ## Technologies used.
   * Html5
