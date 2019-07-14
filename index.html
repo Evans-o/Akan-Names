@@ -3,43 +3,49 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title></title>
   </head>
   <body>
     <div class="container-fluid">
-    <div class="jumbotron ">
+    <div class="jumbotron p-0">
       <div class="overlay">
         <h1 class="text-white">Birthday Calculator</h1>
         <hr class="my-4 text-white">
         <p class="text-white">Testing out my Akan names project.</p>
         <div class="card">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="card-header">
+            <h3>header</h3>
+          </div>
+          <div class="card-body">
+            <h3>body</h3>
+          </div>
+          <div class="card-footer">
+            <h3>footer</h3>
+          </div>
         </div>
       </div>
     </div>
     <div class="panel col-sm-6 offset-sm-3 text-center">
             <div class="form-group">
               <label for="century">Century</label>
-              <input type="text" class="form-control" placeholder="Enter the century" id="century">
+              <input type="text" class="form-control" placeholder="Enter the century" id="century" required>
             </div>
             <div class="form-group">
               <label for="year">Year</label>
-              <input type="text" placeholder="Enter the year" class="form-control" id="year">
+              <input type="text" placeholder="Enter the year" class="form-control" id="year" required>
             </div>
             <div class="form-group">
               <label for="month">Month</label>
-              <input type="text" class="form-control" placeholder="Enter the month of the year" id="month">
+              <input type="text" class="form-control" placeholder="Enter the month of the year" id="month" required>
             </div>
             <div class="form-group">
               <label for="monthDay">Day of month</label>
-              <input type="text" placeholder="Enter the day of the month" class="form-control" id="monthday">
+              <input type="text" placeholder="Enter the day of the month" class="form-control" id="monthday" required>
             </div>
             <form class="radio-button">
-              <input type="radio" class="genders" value="male" id="rad1" name="rads">Male
-              <input type="radio" class="genders" value="female" id="rad1" name="rads">Female
+              <input type="radio" class="genders" value="male" id="rad1" name="rads" required>Male
+              <input type="radio" class="genders" value="female" id="rad1" name="rads" required>Female
             </form>
             <br>
             <a href="#result"><button type="button" name="button" class="btn btn-dark" onclick="checkDayOfWeek();">Calculate Day</button></a>
@@ -47,6 +53,6 @@
     </div>
 
   </div>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
   </body>
 </html>
