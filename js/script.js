@@ -5,12 +5,22 @@ function getInput(){
   year = parseInt(document.getElementById("year").value);
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("monthday").value);
+
+
+  if((century == "") && (century <= 0) && (century >= 30)){
+    alert("Input the correct gender");
+  }else if ((year == "") && (year <= 0) && (year > 5000)){
+    alert("Input the correct year");
+  }else if ((month == "") && (month > 12) && (month <= 0)) {
+    alert("Input the correct month");
+  }else if((dayOfMonth == "") && (dayOfMonth > 31) && (dayOfMonth <= 0)){
+    alert("input the correct date");
+  }
 }
 //Calculate func
 function calculateDay(){
     getInput();
-    dayOfWeek = (((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7;
-    dayOfWeek -=1;
+    dayOfWeek = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayOfMonth) % 7) -1;
     console.log(dayOfWeek); //Test the calculateDay function
     return (Math.floor(dayOfWeek));
 }
@@ -40,25 +50,25 @@ function checkGender(){
     switch(gender){
         case gender = "male":
               switch(day){
-                case 0 || -0:
+                case (0 || -0):
                   document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is " + maleNames[0];
                 break;
-                case 1 || -1:
+                case (1 || -1):
                   document.getElementById("result").innerHTML = "The day is on a monday." + " " + "Your akan name is " + maleNames[1];
                 break;
-                case 2 || -2:
+                case (2 || -2):
                   document.getElementById("result").innerHTML = "The day is on a tuesday." + " " + "Your akan name is " + maleNames[2];
                 break;
-                case 3 || -3:
+                case (3 || -3):
                   document.getElementById("result").innerHTML = "The day is on a wednesday." + " " + "Your akan name is "+ maleNames[3];
                 break;
-                case 4 || -4:
+                case (4 || -4):
                   document.getElementById("result").innerHTML = "The day is on a thursday." + " " + "Your akan name is " + maleNames[4];
                 break;
-                case 5 || -5:
+                case (5 || -5):
                   document.getElementById("result").innerHTML = "The day is on a friday." + " " + "Your akan name is " + maleNames[5];
                 break;
-                case 6 || -6:
+                case (6 || -6):
                   document.getElementById("result").innerHTML = "The day is on a saturday." + " " + "Your akan name is " + maleNames[6];
                 break;
                 default:
