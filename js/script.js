@@ -8,7 +8,7 @@ function getInput(){
 
 
   if(century == ""){
-    alert("Input the correct gender");
+    alert("Input the correct century");
     return false;
   }else if (year == ""){
     alert("Input the correct year");
